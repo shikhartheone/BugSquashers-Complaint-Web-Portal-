@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Anonymous Message</title>
+      <link rel="stylesheet" href="Slide.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <style>
+		/* style for the navigation bar */
+		nav {
+			background-color: #FAB216;
+			overflow: hidden;
+		}
+        nav a {
+			float: right;
+			color: #f2f2f2;
+			text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			padding: 24px 16px;
+			text-decoration: none;
+			font-size: 25px;
+		}
+        nav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+      .margin
+        {
+            margin: 10px 1px 15px 50px;
+        }
+      .comp
+        {
+        float: right;
+        }
+        img
+        {
+        float: right;
+        }
+
+	</style>
+   </head>
+   <body bgcolor="#F9C319">
+      <div class="wrapper">
+         <input type="checkbox" id="btn" hidden>
+         <label for="btn" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         <i class="fas fa-times"></i>
+         </label>
+         <nav id="sidebar">
+            <div class="title">
+               Menu
+            </div>
+            <ul class="list-items">
+               <li><a href="Devjam.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="Feedback.html"><i class="fas fa-stream"></i>Feedback</a></li>
+                <li><a href="About.html"><i class="fas fa-user"></i>About us</a></li>
+            </ul>
+         </nav>
+      </div>
+       <nav>
+         <a href="Ananomus Message.html">Anonymous Message</a>
+         <a href="#">Track Complaint</a>
+         <a href="Complaint.php">Complaint</a>
+	</nav> 
+  <br><br>
+
+
+  <div class="comp">
+   <img src="Anan mesg-03.png" height="53%" width="53%">
+   <div class="margin">
+      <br><br><br><br><br>
+   <label for="Message">To:</label>
+   <font color="#F9C319">........................................</font>
+   <select id="Complaint" name="Complaint">
+		<option value="Warden">Warden</option>
+		<option value="Care Taker">Care Taker</option>
+	</select> <br><br>
+    <label for="description">Enter a description:</label>
+    <font color="#F9C319">..</font>
+	<textarea id="description" name="description" rows="5" cols="40" maxlength="500" required></textarea>
+    <br><br>
+    <label for="image">Upload an image:</label>
+    <font color="#F9C319">.....</font>
+	<input type="file" id="image" name="image" accept="image/*">
+    
+   <br><br><br>
+    <font color="#F9C319">..................................<a class="fcc-btn" href="Thank you.html">Submit</a>
+
+</body>
+
+    
+</html>
